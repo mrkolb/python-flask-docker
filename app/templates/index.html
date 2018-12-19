@@ -5,7 +5,7 @@
     <title>Index page</title>
 </head>
 <body>
-  <img src="images/jenkins-x-logo.png" alt="JenkinsX Logo" align="right">
+  <img src="{{url_for('images', filename='jenkins-x-logo.png')}}" alt="JenkinsX Logo" align="right" />
   <h1>The JenkinsX domain is "cloud.weblaminar.com"</h1>
 The hostname of the container is <b>{{ hostname }}</b> and its IP is <b>{{ ip }}</b>.
 </body>
